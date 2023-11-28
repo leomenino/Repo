@@ -1,0 +1,73 @@
+#navbar {
+    height: 40px;
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    font-family: 'Caveat', cursive;
+
+}
+
+header {
+    height: 250px;
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: 'Caveat', cursive;
+}
+
+main {
+    display: flex;
+    font-family: 'Caveat', cursive;
+}
+
+#main-content {
+    height: 1000px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;  
+    font-family: 'Caveat', cursive;
+}
+
+#sidebar {
+    width: 110px;
+    height: 1000px;
+    background-color: gray;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    padding-right: 5px;
+    padding-top: 5px;
+    justify-content: flex-start;
+    font-family: 'Caveat', cursive;
+    
+}
+
+#stick{
+    position: sticky;
+    top: 4%;
+    font-family: 'Caveat', cursive;
+}
+
+#sidebar ul li{
+    list-style-type: none;
+    margin-top: 20px;
+    font-family: 'Caveat', cursive;
+
+}
+
+
+footer {
+    height: 100px;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: 'Caveat', cursive;
+    
+}

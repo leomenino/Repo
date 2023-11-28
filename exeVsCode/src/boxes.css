@@ -1,0 +1,63 @@
+h1 {
+    font-size: xx-large;
+}
+.box1 {
+    width: 210px;
+    height: 180px;
+    border: 10px solid black;
+    
+
+}
+.box2 {
+    width: 50px;
+    height: 20px;
+    border: 80px solid green;
+    
+}
+.box3 {
+    width: 230px;
+    height: 200px;
+    border: 20px solid orange;
+}
+
+.box4 {
+    width: 500px;
+    height: 0px;
+    align-items: flex-end;
+    display: flex;
+    margin-left: 300px;
+    text-align: center;
+    
+
+}
+.in1box4 {
+    border: 5px solid green;
+    background-color: green;
+    margin: 5px;
+    width: 100px;
+    height: 35px;
+    align-items: center;
+    
+}
+.in2box4 {
+    border: 5px solid orange;
+    background-color: orange;
+    margin: 5px;
+    width: 100px;
+    height: 35px;
+    align-items: center;
+
+
+}
+.in3box4 {
+    border: 5px solid black;
+    margin: 5px;
+    width: 100px;
+    height: 35px;
+    align-items: center;
+}
+.slim {
+    overflow:scroll;
+    width: 50px;
+    height: 20px;
+}
